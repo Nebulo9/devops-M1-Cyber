@@ -2,9 +2,14 @@ FROM node:current-alpine
 
 RUN adduser -D nodeuser
 
-COPY ./broken-app /home/nodeuser/app
+COPY . /app
 
-WORKDIR /home/nodeuser/app
+WORKDIR /app
+
+RUN chown -R nodeuser:nodeuser /app && \
+    chmod -R 755 /app
+
+USER nodeuser
 
 RUN npm install
 
