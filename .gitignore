@@ -39,15 +39,15 @@ go.work
 Thumbs.db
 
 # Exercise outputs (students will create these)
-1-hello-whale.sh
-2-python.sh
-3-curl.dockerfile
-4-dev-app.dockerfile
-4-run.sh
-5-optimized.dockerfile
-5-comparison.txt
-6-setup.sh
-7-microservices.sh
+#1-hello-whale.sh
+#2-python.sh
+#3-curl.dockerfile
+#4-dev-app.dockerfile
+#4-run.sh
+#5-optimized.dockerfile
+#5-comparison.txt
+#6-setup.sh
+#7-microservices.sh
 
 # Exercise 6 generated files
 docker-compose.yml
