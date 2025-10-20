@@ -1,0 +1,2 @@
+optimized-app                        latest          5301950a6116   7 minutes ago    6.99MB
+bloated-app                          latest          fcb306c05985   11 minutes ago   895MB
