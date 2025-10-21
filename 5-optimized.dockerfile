@@ -2,6 +2,8 @@ FROM golang:1.21-alpine3.20
 
 RUN adduser -D gouser
 
+USER gouser
+
 WORKDIR /app
 
 COPY . .
